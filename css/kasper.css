@@ -1115,6 +1115,7 @@ margin-left:50px;
 @media (max-width:991px){
     .subscribe .container p{
         margin-top: 40px;
+        margin-left: 0;
     }
 }
 
