@@ -1118,7 +1118,6 @@ margin-left:50px;
         margin-left: 0;
     }
 }
-
 /* end space */
 /* start contact us */
 .contact-us {
@@ -1132,6 +1131,7 @@ margin-left:50px;
 @media (max-width:767px){
     .contact-us .contain-form {
         flex-direction: row-reverse;
+        flex-basis: 65%;
     }
 }
 .contact-us .contain-form form {
@@ -1146,8 +1146,7 @@ margin-left:50px;
     padding: 20px;
 }
 .contact-us .contain-form form textarea {
-    padding: 20px;
-    height:100px;
+    padding: 20px 20px 30px;
     margin-bottom: 30px;
     width: 100%;
     max-width: 100%;
@@ -1180,6 +1179,7 @@ margin-left:50px;
     .contact-us .contain-form .contact-info {
         margin-left: 0;
         margin-right: 20px;
+        flex-basis: 35%;
     }
 }
 .contact-us .contain-form .contact-info .contact >h4{
@@ -1195,6 +1195,15 @@ color: #5A5A5A;
 font-size: 18px;
 font-style: italic;
 display: block;
+}
+@media (max-width:767px) {
+    .contact-us .contain-form .contact-info .contact h4 {
+        font-size: 15px;
+    }
+    .contact-us .contain-form .contact-info .contact span,
+.contact-us .contain-form .contact-info .contact address {
+    font-size: 15px;
+}
 }
 /* end contact us */
 /* srast footer */
